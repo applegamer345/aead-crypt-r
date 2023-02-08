@@ -1,13 +1,13 @@
 use arrayref::array_ref;
 use anyhow::anyhow;
 use chacha20poly1305::{
-    aead::{stream, Aead, NewAead, generic_array::GenericArray},
+    aead::{stream, NewAead},
     XChaCha20Poly1305,
 };
 use rand::{rngs::OsRng, RngCore};
 use std::{
-    fs::{self, File},
-    io::{Read, Write, Seek}, hash::{self, Hash},
+    fs::File,
+    io::{Read, Write, Seek}
 };
 
 use sha256;
