@@ -1,4 +1,3 @@
-### You can download the Sourcecode and compile it yourself, or just download the binary.
 ```
 USAGE: 
                 ... [PATH] [SUBDIRS 0/1]  [ENCRYPT[1]/DECRYPT[0]] [PASSWORD]
