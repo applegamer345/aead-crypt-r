@@ -13,6 +13,6 @@ Explanation:
 > `./test`     : the path to encrypt
 > `0`           : specifying that we don't need the sub-directorys 
 > `1`           : specifying that we need to encrypt
-> "foo"        : the Password
+> `foo`        : the Password
 
-**Feel free to, edit the Source code or use it yourself**
+**Feel free to edit the Source code or use it yourself**
